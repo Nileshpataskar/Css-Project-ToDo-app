@@ -1,0 +1,60 @@
+body {
+  margin: 0px 70px 0px 70px;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.headerr {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 16px 86px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 6px 6px 10p 6PX 6px #564e4e;
+}
+.main_div {
+  background-color: #ededed;
+  height: 1000px;
+  margin-top: 8px;
+}
+.new_task {
+  position: relative;
+  padding: 20px;
+  margin-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+.common {
+  margin-top: 50px;
+  width: 230px;
+  box-shadow: 3px 3px 3px  #636262;
+  background-color: #fff;
+  height: 270px;
+  padding: 30px;
+  margin-left: 80px;
+  border-radius: 8px;
+  color: black;
+}
+
+.common:hover {
+  box-shadow: 3px 3px 20px #6a4c9c;
+}
+.one {
+  position: absolute;
+}
+.two {
+  position: absolute;
+  left: 500px;
+}
+.three {
+  position: absolute;
+  left: 900px;
+}
+.four {
+  position: absolute;
+  top: 650px;
+}
+.fifth {
+  position: absolute;
+  top: 650px;
+  left: 500px;
+}
