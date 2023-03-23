@@ -9,11 +9,9 @@ body {
   padding: 16px 86px;
   font-size: 18px;
   cursor: pointer;
-  box-shadow: 6px 6px 10p 6PX 6px #564e4e;
+  box-shadow: 6px 6px 10p 6px 6px #564e4e;
 }
 .main_div {
-  background-color: #ededed;
-  height: 1000px;
   margin-top: 8px;
 }
 .new_task {
@@ -25,20 +23,25 @@ body {
 }
 .common {
   margin-top: 50px;
-  width: 230px;
-  box-shadow: 3px 3px 3px  #636262;
+  width: 180px;
+  box-shadow: 3px 3px 3px #636262;
   background-color: #fff;
   height: 270px;
-  padding: 30px;
+  padding: 80px;
   margin-left: 80px;
   border-radius: 8px;
   color: black;
+}
+.ultimate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .common:hover {
   box-shadow: 3px 3px 20px #6a4c9c;
 }
-.one {
+/* .one {
   position: absolute;
 }
 .two {
@@ -57,4 +60,49 @@ body {
   position: absolute;
   top: 650px;
   left: 500px;
+} */
+
+@media all and (min-width: 320px) and (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+  }
+
+  .taskspan {
+    padding: 5px;
+  }
+  .h1task {
+    font-size: 18px;
+  }
+  .main_div {
+    height: 300px;
+  }
+  .new_task{
+   justify-content: center;
+  }
+  .addnewText {
+    display: none;
+  }
+  .common {
+    justify-content: center;
+    width: 200px;
+
+    margin-top: 1px;
+
+    box-shadow: 3px 3px 3px #636262;
+    background-color: #fff;
+    height: 230px;
+    padding: 10px;
+    margin-left: 60px;
+    border-radius: 8px;
+    color: black;
+    margin-top: 30px;
+
+    font-size: 10px;
+  }
+  .ultimate {
+    display: flex;
+    flex-direction: column;
+  }
 }
